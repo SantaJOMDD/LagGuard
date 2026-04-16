@@ -1,0 +1,484 @@
+🚀 LagGuard backend starting...
+🔥 FEATURE ENGINE LOADED
+🔥 PREDICTION ENGINE LOADED
+✅ Backend subsystems initialized
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334747667, ping: 61, jitter: 16 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334748173, ping: 28, jitter: 9 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334748683, ping: 29, jitter: 11 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334749187, ping: 28, jitter: 1 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334749691, ping: 70, jitter: 17 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334750203, ping: 91, jitter: 12 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334750710, ping: 118, jitter: 28 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334751224, ping: 33, jitter: 23 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+Sample: { timestamp: 1776334751734, ping: 103, jitter: 13 }
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334752240,
+  mean_ping: 61.9,
+  variance_ping: 998.0899999999998,
+  mean_jitter: 16,
+  variance_jitter: 71.4,
+  ping_slope: 4.903030303030302,
+  jitter_slope: 1.7575757575757576
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334752238, ping: 58, jitter: 30 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334752242,
+  ruleScore: 0.4763,
+  mlScore: 0.9998,
+  finalScore: 0.7904,
+  source: 'hybrid',
+  status: 'CRITICAL',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0,
+      jitter: 0.9,
+      slope: 0.9806060606060605,
+      variance: 0.9980899999999998
+    },
+    historyDepth: 1,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334752745,
+  mean_ping: 63.3,
+  variance_ping: 1013.2099999999998,
+  mean_jitter: 15.8,
+  variance_jitter: 71.76,
+  ping_slope: 5.557575757575758,
+  jitter_slope: 1.6484848484848484
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334752743, ping: 75, jitter: 14 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334752746,
+  ruleScore: 0.484,
+  mlScore: 0.9998,
+  finalScore: 0.7935,
+  source: 'hybrid',
+  status: 'CRITICAL',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.01999999999999998,
+      jitter: 0.895,
+      slope: 1,
+      variance: 1
+    },
+    historyDepth: 2,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334753254,
+  mean_ping: 66.4,
+  variance_ping: 880.8399999999998,
+  mean_jitter: 16.8,
+  variance_jitter: 67.16000000000001,
+  ping_slope: 2.9696969696969697,
+  jitter_slope: 1.3696969696969696
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334753253, ping: 59, jitter: 19 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334753255,
+  ruleScore: 0.4015,
+  mlScore: 0.8477,
+  finalScore: 0.6692,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.05428571428571445,
+      jitter: 0.8765656565656565,
+      slope: 0.593939393939394,
+      variance: 0.8808399999999998
+    },
+    historyDepth: 3,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334753761,
+  mean_ping: 67,
+  variance_ping: 839.2,
+  mean_jitter: 18.4,
+  variance_jitter: 71.64,
+  ping_slope: -1.2363636363636363,
+  jitter_slope: 1.5393939393939393
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334753759, ping: 35, jitter: 27 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334753762,
+  ruleScore: 0.3039,
+  mlScore: 0.9935,
+  finalScore: 0.7177,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.04476190476190475,
+      jitter: 0.96,
+      slope: 0,
+      variance: 0.8392000000000001
+    },
+    historyDepth: 4,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334754265,
+  mean_ping: 75.6,
+  variance_ping: 834.04,
+  mean_jitter: 21,
+  variance_jitter: 42,
+  ping_slope: -1.2727272727272727,
+  jitter_slope: 0.8484848484848485
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334754264, ping: 114, jitter: 27 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334754266,
+  ruleScore: 0.3633,
+  mlScore: 0.1692,
+  finalScore: 0.2468,
+  source: 'hybrid',
+  status: 'STABLE',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0.25,
+      spike: 0.15642857142857128,
+      jitter: 0.8078282828282828,
+      slope: 0,
+      variance: 0.83404
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334754772,
+  mean_ping: 74.2,
+  variance_ping: 867.36,
+  mean_jitter: 19.4,
+  variance_jitter: 77.84,
+  ping_slope: -2.7151515151515153,
+  jitter_slope: -0.509090909090909
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334754770, ping: 56, jitter: 1 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334754772,
+  ruleScore: 0.189,
+  mlScore: 0.8477,
+  finalScore: 0.5842,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.0875000000000002,
+      jitter: 0.3153030303030303,
+      slope: 0,
+      variance: 0.86736
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334755285,
+  mean_ping: 70.7,
+  variance_ping: 860.01,
+  mean_jitter: 19.2,
+  variance_jitter: 81.16,
+  ping_slope: -2.587878787878788,
+  jitter_slope: -1.5151515151515151
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334755284, ping: 56, jitter: 10 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334755286,
+  ruleScore: 0.1392,
+  mlScore: 0.8477,
+  finalScore: 0.5643,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0,
+      jitter: 0.18,
+      slope: 0,
+      variance: 0.8600099999999999
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334755795,
+  mean_ping: 70.5,
+  variance_ping: 841.45,
+  mean_jitter: 17.9,
+  variance_jitter: 73.49000000000001,
+  ping_slope: 3.036363636363636,
+  jitter_slope: -1.1575757575757575
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334755793, ping: 116, jitter: 15 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334755796,
+  ruleScore: 0.2398,
+  mlScore: 0.9935,
+  finalScore: 0.692,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0,
+      jitter: 0.14749999999999996,
+      slope: 0.6072727272727272,
+      variance: 0.84145
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334756306,
+  mean_ping: 70.7,
+  variance_ping: 826.8100000000001,
+  mean_jitter: 16.4,
+  variance_jitter: 78.44000000000001,
+  ping_slope: -1.4,
+  jitter_slope: -1.3575757575757577
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334756304, ping: 35, jitter: 8 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334756307,
+  ruleScore: 0.1212,
+  mlScore: 0.8477,
+  finalScore: 0.5571,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0,
+      jitter: 0.10999999999999999,
+      slope: 0,
+      variance: 0.82681
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334756810,
+  mean_ping: 69.5,
+  variance_ping: 762.25,
+  mean_jitter: 15.1,
+  variance_jitter: 102.49000000000001,
+  ping_slope: 1.8606060606060606,
+  jitter_slope: -2.478787878787879
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334756808, ping: 91, jitter: 0 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334756811,
+  ruleScore: 0.174,
+  mlScore: 0.8477,
+  finalScore: 0.5782,
+  source: 'hybrid',
+  status: 'HIGH',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0,
+      jitter: 0.07750000000000001,
+      slope: 0.37212121212121213,
+      variance: 0.76225
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334757316,
+  mean_ping: 73.7,
+  variance_ping: 824.4100000000001,
+  mean_jitter: 13.7,
+  variance_jitter: 78.41,
+  ping_slope: 2.757575757575758,
+  jitter_slope: -1.4363636363636363
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334757314, ping: 100, jitter: 16 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334757318,
+  ruleScore: 0.2812,
+  mlScore: 0.1688,
+  finalScore: 0.2137,
+  source: 'hybrid',
+  status: 'STABLE',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0.25,
+      spike: 0.04785714285714298,
+      jitter: 0.04249999999999998,
+      slope: 0.5515151515151515,
+      variance: 0.8244100000000001
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334757825,
+  mean_ping: 69.3,
+  variance_ping: 987.21,
+  mean_jitter: 14.8,
+  variance_jitter: 89.96,
+  ping_slope: 0.5151515151515151,
+  jitter_slope: -0.8
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334757823, ping: 31, jitter: 25 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334757826,
+  ruleScore: 0.2202,
+  mlScore: 0.1688,
+  finalScore: 0.1893,
+  source: 'hybrid',
+  status: 'STABLE',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0.25,
+      spike: 0,
+      jitter: 0.10333333333333333,
+      slope: 0.10303030303030303,
+      variance: 0.98721
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334758335,
+  mean_ping: 74,
+  variance_ping: 1089.2,
+  mean_jitter: 13.1,
+  variance_jitter: 101.69000000000001,
+  ping_slope: 1.8303030303030303,
+  jitter_slope: -1.218181818181818
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334758334, ping: 106, jitter: 2 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334758336,
+  ruleScore: 0.2028,
+  mlScore: 0.1688,
+  finalScore: 0.1824,
+  source: 'hybrid',
+  status: 'STABLE',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.045714285714285756,
+      jitter: 0.027500000000000024,
+      slope: 0.3660606060606061,
+      variance: 1
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
+📥 FEATURE ENGINE RECEIVED SAMPLE
+FEATURE: {
+  timestamp: 1776334758836,
+  mean_ping: 77.1,
+  variance_ping: 933.89,
+  mean_jitter: 11.2,
+  variance_jitter: 81.36,
+  ping_slope: -1.206060606060606,
+  jitter_slope: -0.5696969696969698
+}
+📤 EMITTING FEATURE_VECTOR
+Sample: { timestamp: 1776334758835, ping: 66, jitter: 8 }
+🔀 HYBRID PREDICTION: {
+  timestamp: 1776334758837,
+  ruleScore: 0.1496,
+  mlScore: 0.1688,
+  finalScore: 0.1611,
+  source: 'hybrid',
+  status: 'STABLE',
+  eta_warning: 'stable',
+  _debug: {
+    ruleSubscores: {
+      trend: 0,
+      spike: 0.07821428571428564,
+      jitter: 0.09010101010101004,
+      slope: 0,
+      variance: 0.93389
+    },
+    historyDepth: 5,
+    mlModelVersion: 'xgboost-1.0',
+    mlWeights: { ml: 0.6, rule: 0.4 }
+  }
+}
