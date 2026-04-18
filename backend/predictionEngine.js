@@ -147,6 +147,7 @@ async function emitFinalPrediction(feature, basePrediction) {
             finalScore,
             source: "hybrid",
             status,
+            eta_warning: estimateEta(finalScore),
             _debug: {
                 ...basePrediction._debug,
                 mlModelVersion: mlResult.modelVersion || "unknown",
